@@ -587,13 +587,6 @@ img {
   margin-left: 65px;
 }
 
-footer {
-  background-image: url(../assets/footer.png);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .contactBanner img {
   max-width: 100%;
   height: auto;
