@@ -1,0 +1,71 @@
+@use "./partials/variables" as *;
+@use "./partials/setup";
+@use "./partials/header";
+@use "./partials/media-queries";
+@use "./partials/main";
+@use './partials/footer';
+
+// Colour Palette
+
+// Text Style Catalog Main Heading Text (NEW PLANT), Menu items, Body text (Lorem ipsum) - Rubik, Normal (400)
+// Sub-Heading Text (60% OFF) - Rubik,light (300)
+
+// Generic styling
+
+.contactBanner img {
+  max-width: 100%;
+  height: auto;
+  margin-left: 0px;
+  background-size: cover;
+}
+
+.bannerText {
+  h1 {
+    position: relative;
+    text-align: center;
+    bottom: 195px;
+
+  }
+
+}
+
+.formBanner {
+  display: flex;
+}
+.required {
+display: flex;
+flex-wrap: wrap;
+}
+
+form {
+max-width: 600px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+display: inline-block;
+width: 100%;
+padding: 8px;
+margin-bottom: 15px;
+font-size: 16px;
+}
+
+input[type="submit"] {
+background-color: $PrimaryGreen;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+}
+
